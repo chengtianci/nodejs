@@ -1,0 +1,69 @@
+/**********************[section]**********************/
+body {
+	background:#383838;
+}
+#view {
+	width: calc(100%);
+	overflow: hidden;
+	position: absolute;
+}
+#view #con {
+	/*position: absolute;*/
+}
+#view #con .miniHint {
+	width: 80px;
+	height: 80px;
+	box-shadow: 0 0 1px 1px #333;
+	position:absolute;
+	bottom: 120px;
+	left: calc(50% - 40px);
+	cursor:pointer;
+}
+#view #con .up,
+#view #con .right,
+#view #con .down,
+#view #con .left {
+	width:80px;
+	height:80px;
+	color: #fff;
+	font-size:30px;
+	line-height:80px;
+	text-align:center;
+	position: absolute;
+	cursor:pointer;
+	z-index:100;
+}
+#view #con .up {
+	top:20px;
+	left: calc(50% - 40px);
+	transform: rotate(-90deg);
+}
+#view #con .right {
+	top: calc(50% - 40px);
+	right: 20px;
+}
+#view #con .down {
+	bottom: 20px;
+	left: calc(50% - 40px);
+	transform: rotate(90deg);
+}
+#view #con .left {
+	top: calc(50% - 40px);
+	left: 20px;
+	transform: rotate(180deg);
+}
+#view #con .col {
+	float: left;
+	position: absolute;
+}
+#view #con .col .colSingl {
+	display:flex;
+	justify-content:center;/*//子元素水平居中*/
+	align-items:center;/*//子元素垂直居中*/
+	text-align: center;
+}
+#view #con .col .colSingl .block {
+	width: 650px;
+	height:500px;
+	border:1px solid #fff;
+}

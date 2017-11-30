@@ -7,8 +7,8 @@ var bodyParser = require('body-parser');
 
 var Router = require('./routers');
 
-// var mongoose = require('mongoose');
-// mongoose.connect("mongodb://localhost/");
+var mongoose = require('mongoose');
+mongoose.connect("mongodb://localhost/");
 
 var app = express();
 

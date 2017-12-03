@@ -4,11 +4,13 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+// var jQ = require('jQuery');
+// var bootstrap = require('bootstrap');
 
 var Router = require('./routers');
 
-var mongoose = require('mongoose');
-mongoose.connect("mongodb://localhost/");
+// var mongoose = require('mongoose');      //暂时先注释掉数据库的链接
+// mongoose.connect("mongodb://localhost/");
 
 var app = express();
 

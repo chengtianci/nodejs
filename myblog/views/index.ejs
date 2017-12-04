@@ -4,16 +4,28 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<title>ctc博客</title>
-	<link rel="stylesheet" type="text/css" href="css/bookstrap-theme.css">
+	
 	<link rel="stylesheet" type="text/css" href="css/bookstrap.css">
-	<link rel="stylesheet" type="text/css" href="css/a.css">
+	<link rel="stylesheet" type="text/css" href="css/login.css">
 </head>
 <body>
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-6 col-sm-3">
-				
-				<img class="img-responsive" src="images/selfie.jpg">
+			<div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2" id="loginform">
+				<form role="form" class="form-horizontal" >
+					<div class="form-group">
+						<label for="firstname" class="col-xs-3 col-sm-2 col-md-2 col-md-offset-2">用户名：</label>
+						<div class="col-xs-8 col-sm-4 col-md-4 ">
+							<input id="firstname" type="text" class="form-control" placeholder="请输入用户名"></input>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="secondname" class="col-xs-3 col-sm-2 col-md-2 col-md-offset-2">密码：</label>
+						<div class="col-xs-8 col-sm-4 col-md-4">
+							<input id="secondname" class="form-control" type="password" name="passwd" placeholder="请输入密码">
+						</div>
+					</div>
+				</form>
 			</div>
 		</div>
 	</div>

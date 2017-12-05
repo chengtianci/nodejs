@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<title>ctc博客</title>
+	<title>博客</title>
 	
 	<link rel="stylesheet" type="text/css" href="css/bookstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/login.css">
@@ -12,11 +12,11 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2" id="loginform">
-				<form role="form" class="form-horizontal" >
+				<form role="form" class="form-horizontal" action="./main">
 					<div class="form-group">
 						<label for="firstname" class="col-xs-3 col-sm-2 col-md-2 col-md-offset-2">用户名：</label>
 						<div class="col-xs-8 col-sm-4 col-md-4 ">
-							<input id="firstname" type="text" class="form-control" placeholder="请输入用户名"></input>
+							<input id="firstname" type="text" class="form-control" name="id" placeholder="请输入用户名"></input>
 						</div>
 					</div>
 					<div class="form-group">
@@ -25,10 +25,15 @@
 							<input id="secondname" class="form-control" type="password" name="passwd" placeholder="请输入密码">
 						</div>
 					</div>
+					<div class="form-group">
+						<div class="col-md-offset-5 ">
+							<input class="btn btn-info" type="submit" value="登陆">
+						</div>
+					</div>
 				</form>
+				<a href="main" target="_blank">aaaa</a>
 			</div>
 		</div>
 	</div>
-	
 </body>
 </html>

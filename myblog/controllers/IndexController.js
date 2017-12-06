@@ -8,6 +8,9 @@ IndexController.index = function (req,res,next) {
 		user : user
 	});
 }
+IndexController.test = function (req,res,next) {
+	res.render('test');
+}
 
 module.exports = IndexController;
 

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>测试</title>
+	<link rel="stylesheet" type="text/css" href="css/bookstrap.css">
+</head>
+<body>
+	<div class="container">
+		<!-- table tr td th的class -->
+		<div class="row">
+			<div class="col-md-12">
+			<table class="table table-bordered table-hover table-striped">
+				<tr>
+					<th>姓名</th>
+					<th>性别</th>
+					<th>手机号</th>
+					<th>QQ</th>
+				</tr>
+				<tr>
+					<td class="active">.active chengtianci</td>
+					<td class="success">male</td>
+					<td class="warning">18627121558</td>
+					<td class="danger">847996695</td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+					<td>4</td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+					<td>4</td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+					<td>4</td>
+				</tr>
+			</table>
+			</div>
+		</div>
+		<!-- 表单的CLASS -->
+		<div class="row">
+			<form role="form"> 
+				<div class="form-group">
+					<label for="first">名称</label>
+					<input type="text" name="name" class="form-control" id="first" placeholder="请输入名称！">
+				</div>
+				<div class="form-group">
+					<label for="second">选择文件：</label>
+					<input type="file" name="file" class="btn" id="second" placeholder="请选择文件！">
+					<p class="help-block">请选择正确的文件！</p>
+				</div>
+				<div class="checkbox">
+					<label>
+						<input type="checkbox" name="">快来勾我啊！
+					</label>
+				</div>
+				<div class="form-group">
+					<input class="btn btn-info" type="submit" name="sub" value="提交">
+				</div>
+			</form>
+			<form role="form" class="form-inline">
+				<div class="form-group">
+					<label for="firstname">不知写什么了</label>
+					<input type="text" name="firstname" id="firstname" class="form-control">
+				</div>
+				<div class="form-group">
+					<label for="secondname" >这里是内联的</label>
+					<input type="date" name="date">
+				</div>
+				<div class="form-group">
+				    <label class="sr-only" for="inputfile">文件输入</label>
+				    <input type="file" id="inputfile">
+				</div>
+				<div class="checkbox">
+				    <label>
+				        <input type="checkbox">请打勾
+				    </label>
+				</div>
+				<button type="submit" class="btn btn-default">提交</button>
+			</form>
+			<form role="form" class="form-horizontal" >
+				<div class="form-group">
+					<label for="thirdname" class="col-sm-2 control-label">水平的表单</label>
+					<div class=" col-sm-10">
+						<input type="text" name="shuiping" id="thirdname" class="form-control">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="fourthname" class="col-sm-2 control-label">hahah </label>
+					<input type="hidden" name="name" id="fourthname">
+				</div>
+				<div class="form-group">
+					<label for="textarea" class="col-sm-2 control-label">textarea</label>
+					<div class=" col-sm-10">
+						<input type="textarea" name="textarea" id="textarea" class="form-control" row="4">
+					</div>
+				</div>
+				<div class="form-group">
+				    <label for="name">文本框</label>
+				    <textarea class="form-control" rows="3"></textarea>
+				  </div>
+				  <label for="name">内联的复选框和单选按钮的实例</label>
+					<div>
+					    <label class="checkbox-inline">
+					        <input type="checkbox" id="inlineCheckbox1" value="option1"> 选项 1
+					    </label>
+					    <label class="checkbox-inline">
+					        <input type="checkbox" id="inlineCheckbox2" value="option2"> 选项 2
+					    </label>
+					    <label class="checkbox-inline">
+					        <input type="checkbox" id="inlineCheckbox3" value="option3"> 选项 3
+					    </label>
+					    <label class="radio-inline">
+					        <input type="radio" name="optionsRadiosinline" id="optionsRadios3" value="option1" checked> 选项 1
+					    </label>
+					    <label class="radio-inline">
+					        <input type="radio" name="optionsRadiosinline" id="optionsRadios4"  value="option2"> 选项 2
+					    </label>
+					</div>
+					<label for="name">默认的复选框和单选按钮的实例</label>
+					<div class="checkbox">
+					    <label><input type="checkbox" value="">选项 1</label>
+					</div>
+					<div class="checkbox">
+					    <label><input type="checkbox" value="">选项 2</label>
+					</div>
+					<div class="radio">
+					    <label>
+					        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked> 选项 1
+					    </label>
+					</div>
+					<div class="radio">
+					    <label>
+					        <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">选项 2 - 选择它将会取消选择选项 1
+					    </label>
+					</div>
+				<div class="form-group">
+					<button type="submit" class="btn btn-default">hahha </button>
+				</div>
+			</form>
+		</div>
+		<div class="row">
+			
+		</div>
+	</div>
+</body>
+</html>

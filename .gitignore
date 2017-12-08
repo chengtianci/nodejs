@@ -1,1 +1,4 @@
-node_modules/*
+blog/node_modules/*
+myapp/node_modules/*
+myblog/node_modules/*
+test/node_modules/*

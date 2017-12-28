@@ -5,9 +5,14 @@ var IndexController = require('./controllers/IndexController');
 Router.use('/index',IndexController.index);
 Router.use('/test',IndexController.test);
 
-var MainController = require('./controllers/MainController');
-Router.use('/main',MainController.main);
+var FrontController = require('./controllers/FrontController');
+Router.use('/front/main',FrontController.main);
 
+var AdminController = require("./controllers/AdminController")
+Router.use("/admin/main",AdminController.main);
+Router.use("/admin/info",AdminController.info);
+Router.use("/admin/blog",AdminController.blog);
+Router.use("/admin/account",AdminController.account);
 
-Router.use('/',IndexController.index);
+Router.use('/',IndexController.index);	
 module.exports = Router;
